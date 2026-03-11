@@ -1,8 +1,8 @@
-# Set 1
-
+# 
 1. Write a C program to print your name.
 
----
+
+
 
 2. Write a C program to add two numbers.
 
@@ -102,7 +102,7 @@ void output(int a, int b, int c, int largest);
 1
 0
 ```
-
+https://en.wikipedia.org/wiki/Methods_of_computing_square_roots#Babylonian_method
 ***Output***
 
 ```
@@ -162,7 +162,7 @@ Input the array:
 
 ---
 
-9. Write a C program to find the [square root](https://en.wikipedia.org/wiki/Methods_of_computing_square_roots#Babylonian_method) of a number.
+9. Write a C program to find the [square root]() of a number.
 
 ***Function Declarations***
 ```c
@@ -218,7 +218,7 @@ struct _complex {
 	float real;
 	float imaginary;
 }
-typedef struct _complex Complex;
+typedef struct _complex Complex;          
 
 Complex input_complex();
 Complex add_complex(Complex a, Complex b);
@@ -226,43 +226,44 @@ void output(Complex a, Complex b, Complex sum);
 ```
 
 ***Input***
-```
+```                 
 2 3
-4 5
+4 5     
 ```
 
 ***Output***
+teh sum of the complex numbers 
 ```
 The sum of 2+3i and 4+5i is 6+8i
-```
+```    
 ---
-
+   
 12. Write a C program to find the sum of _n_ complex numbers
-
+ 
 ***Function Declarations***
-```c
+```c 
 struct _complex {
-	float real,imaginary;
+	float real,imaginary; 
 };
-typedef struct _complex Complex;
+typedef struct _complex Complex; 
 
-int get_n();
+int get_n(); 
 Complex input_complex();
-void input_n_complex(int n, Complex c[n]);
+void input_n_complex(int n, Complex c[n]); 
 Complex add(Complex a, Complex b);
-Complex add_n_complex(int n, Complex c[n]);
+Complex add_n_complex(int n, Complex c[n]); 
 void output(int n, Complex c[n], Complex result);
-```
+``` 
 
-***Input***
+***Input*** 
  ```
-Enter the number of arrays: 3
+Enter the number of arrays: 3 
 2 3
-4 5
+4 5 
 6 7
-```
+``` 
 ***Output***
-```
+```                    
 2+3i + 4+5i + 6+7i is 12+15i
 ```
 
